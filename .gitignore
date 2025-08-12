@@ -35,3 +35,9 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+# Add to .gitignore
+echo "" >> .gitignore
+echo "# Environment variables" >> .gitignore  
+echo ".env" >> .gitignore
+echo ".env.local" >> .gitignore
+echo ".env.*.local" >> .gitignore
